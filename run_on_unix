@@ -6,6 +6,6 @@
 
 dir=`dirname $0`
 compiledName=enigma
-clang $dir/main.c -o $dir/$compiledName
+gcc $dir/main.c -o $dir/$compiledName
 cd $dir
 ./$compiledName
