@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 #include "enigma.h"
 
 // encryption rotor_functions

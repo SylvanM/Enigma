@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Created Tue Feb  5 19:34:35 EST 2019
+
+# begin bash script
+
+dir=`dirname $0`
+compiledName=enigma
+clang $dir/main.c -o $dir/$compiledName
+cd $dir
+./$compiledName
