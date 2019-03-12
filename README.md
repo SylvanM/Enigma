@@ -5,9 +5,9 @@ This step is pretty easy. Just download the repository and put the folder somewh
 Note: Do not put the folder in a directory where its file path has a space in it. This confuses the compiler because instead of escaping the space, it considers it two different commands.
 
 ### Running/Compilation
-If you have a UNIX system, this step is easy. In the downloaded folder there is a file called "run_on_mac". Run it. This runs a shell script that will compile the program and then run it. After running "run_on_mac", just check the output file and there should be the encrypted/decrypted text.
+If you have a UNIX system, this step is easy. In the downloaded folder there is a file called "run_on_unix". Run it. This runs a shell script that will compile the program and then run it. After running "run_on_unix", just check the output file and there should be the encrypted/decrypted text.
 
-If you have a Windows computer, you will have to compile it and run it yourself because I don't have much experience with Windows. I will work on adding a .exe file for Windows that will do the same as the "run_on_mac" file.
+If you have a Windows computer, you will have to compile it and run it yourself because I don't have much experience with Windows. I will work on adding a .exe file for Windows that will do the same as the "run_on_unix" file.
 
 ## Usage
 If you are unfamiliar with what the machine is or its basic operation, please read [this wikipedia paragraph](https://en.wikipedia.org/wiki/Enigma_machine#Basic_operation).
